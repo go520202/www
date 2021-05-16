@@ -1,0 +1,16 @@
+<audio id='hz'><source src="" type="audio/mp3" /></audio>
+<script>
+	function hzplay($mp3){
+	    hz = document.getElementById("hz");
+	    hz.src = $mp3;
+	    hz.play();
+	}
+</script>
+
+
+
+<img src="a01 복사.gif" width="110" height="115" border="0" onclick="hzplay('../sound/word_sound/01.mp3')" style="cursor:pointer">
+
+onclick="hzplay('../sound/word_sound/01.mp3')" style="cursor:pointer"
+
+
